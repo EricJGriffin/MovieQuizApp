@@ -33,6 +33,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LICENSE.md" />
+    <Content Include="README.md" />
     <Content Include="requirements.txt" />
     <Content Include="templates\Correct.html" />
     <Content Include="templates\CreateEntry.html" />
