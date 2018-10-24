@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Movie Quiz</title>
+</head>
+<body>
+    <form method="post">
+        <h2>What year was {{ title }} made?</h2>
+        <div>
+            <label for="submittedYear">Year: </label>
+            <input name="submittedYear" type="text" />
+        </div>
+        <h2>What rating did {{ title }} get?</h2>
+        <div>
+            <label for="submittedRating">Rating: </label>
+            <input name="submittedRating" type="text" />
+        </div>
+        <div>
+            <button type="submit">Submit Answers</button>
+        </div>
+    </form>
+
+</body>
+</html>
